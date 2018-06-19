@@ -1,0 +1,313 @@
+@meta charset="utf-8";
+
+header {
+	font-family: 'Dancing Script', cursive;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+body{
+	background-color: #096979;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	font-weight: lighter;
+	color: 	#F8EFEA;
+	margin: 0 auto;
+}
+
+nav {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	background-color: #1DA7C4;
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+}  
+
+nav li {
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px solid #888;
+}
+
+nav a {
+	text-decoration: none;
+	color: #F8EFEA;
+	display: block;
+}
+
+nav a:hover {
+	color: #60E9CD;
+}
+
+nav a:focus {
+	color: #60E9CD;
+	cursor: default;
+}
+
+.active {
+	color: #60E9CD;
+}
+
+.imghome {
+	display: inline-block;
+}
+
+.imagem1 {
+	width: 500px;
+}
+
+.imagem2 {
+	width: 500px;
+}
+
+.imagem3 {
+	height: 778px;
+}
+
+.imagem4 {
+	width: 500px;
+}
+
+.imagem5 {
+	width: 500px;
+}
+
+.imagem6 {
+	width: 255px;
+}
+
+#home{
+	float: left;
+	margin-left: 225px;
+}
+
+.home2{
+	float: right;
+	margin-right: 50px;
+}
+
+.imgartes {
+	display: inline-block;
+}
+
+#artes{
+	float: left;
+	margin-left: 250px;
+}
+
+.artes2{
+	float: right;
+	margin-right: 50px;
+}
+
+@media screen and (min-width: 360px) {
+	nav li {
+		width: 120px;
+		border-bottom: none;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1.4em;
+	}
+
+	nav li {
+		display: inline-block;
+	}
+}
+
+section ul{
+	margin: 0 auto;
+	list-style-type: none;
+	width: 750px;
+	padding: 0;
+}
+
+.txtabout{
+	margin-right: 275px;
+	float: right;
+	width: 25%;
+	text-align: justify;
+}
+
+.descricao{
+	position: relative;
+	display: inline;
+	width: 400px;
+}
+
+ul li p{
+	text-align: justify;
+}
+
+.photo{
+	position: absolute;
+	width: 300px;
+	float: left;
+	width: 50%;
+	margin-top: 10px;
+	margin-left: 170px;
+	margin-right: 0;
+}
+
+.logoig{
+	position: absolute;
+	width: 50px;
+	margin-left: 960px;
+	margin-top: 240px;
+}
+
+.logofb{
+	position: absolute;
+	width: 50px;
+	margin-left: 910px;
+	margin-top: 240px;
+}
+
+.u{
+	float: right;
+}
+
+#contact{
+	margin: 0 auto;
+	width: 500px;
+}
+
+.contatoform{
+	position: relative;
+	width: 400px;
+}
+
+label{
+	width: 50px;
+	font-size: 22px;
+}
+
+.nome, .email, .cc, .mensagem, .envio{
+	position: relative;
+	width: 500px;
+	height: 50px;
+}
+
+.esquerda, .direita{
+	position: absolute;
+}
+
+.esquerda{
+	margin-left: 2em;
+}
+
+.direita{
+	margin-top:0.2em;
+	margin-right: 2em; 
+	top:0;
+	right: 0px;
+}
+
+.esquerdaemail, .direitaemail{
+	position: absolute;
+}
+
+.esquerdaemail{
+	margin-left: 2em;
+}
+
+.direitaemail{
+	margin-top:0.2em;
+	margin-right: 2em; 
+	top:0;
+	right: 0px;
+}
+
+.esquerdacc, .direitacc{
+	position: absolute;
+}
+
+.esquerdacc{
+	margin-left: 2em;
+}
+
+.direitacc{
+	margin-top:0.2em;
+	margin-right: 2em; 
+	top:0;
+	right: 0px;
+}
+
+.esquerdamensagem, .direitamensagem{
+	position: absolute;
+}
+
+.mensagemdetxt{
+	border-radius: 5px;
+	position: absolute;
+	height: 160px;
+	width: 420px;
+	bottom: 20px;
+	right: 40px;
+}
+
+.message{
+	height: 500px;
+}
+
+.esquerdamensagem{
+	margin-left: 2em;
+}
+
+.direitamensagem{
+	margin-top:0.2em;
+	margin-right: 2em; 
+	top:0;
+	right: 0px;
+}
+
+#botaoenviar input{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+	position: absolute;
+	margin-left: 210px;
+	background-color: #1DA7C4;
+	color: #FFF;
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+}
+
+.texto{
+	position: relative;
+	width: 500px;
+	height: 170px;
+}
+
+li .tam1{
+	border-radius: 5px;
+	width: 350px;
+	height: 25px;
+	right: 0;
+	border-color: white;
+}
+
+li .tam2{
+	border-radius: 5px;
+	width: 432px;
+	height: 150px;
+	right: 0;
+	border-color: white;
+}
+
+form ul{	
+	display: inline-block;
+}
+
+form ul li label{
+	width: 50px !important;
+}
